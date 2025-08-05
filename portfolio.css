@@ -5,7 +5,7 @@
 }
 .container{
     width: auto;
-    height: 150vh; 
+    min-height: 100vh;  
     display: grid;
     /* grid-template-rows: 50px 1250px 150px; */
       grid-template-rows: auto 1fr auto;
@@ -27,6 +27,8 @@
     
     background-color: cadetblue;
     grid-area: footer;
+      padding: 10px 0;
+    margin-top: 0;
 }
 .nav{
     background-color: rgb(22, 20, 20);
